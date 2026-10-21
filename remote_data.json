@@ -1,0 +1,415 @@
+{
+  "ad_config": {
+    "ads_enabled": true,
+    "app_open_enabled": true,
+    "banner_enabled": true,
+    "interstitial_enabled": true,
+    "native_enabled": true,
+    "app_open_id": "ca-app-pub-3940256099942544/9257395921",
+    "banner_id": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+    "native_id": "ca-app-pub-3940256099942544/2247696110",
+    "interstitial_click_interval": 2,
+    "interstitial_cooldown_seconds": 40,
+    "native_list_interval": 3
+  },
+  "guides": [
+    {
+      "id": 1,
+      "category": "Aktivasi Cicilan",
+      "title": "Cara Mengaktifkan Fitur DANA Cicil & Syarat Utamanya",
+      "subtitle": "Panduan langkah demi langkah memunculkan dan mengaktifkan fitur cicilan resmi di akun dompet digital Anda.",
+      "read_time": "5 Menit",
+      "is_popular": true,
+      "sections": [
+        {
+          "heading": "Mengenal Mekanisme Fitur Cicilan Dompet Digital",
+          "body": "Fitur DANA Cicil merupakan layanan pembiayaan transaksi yang disediakan melalui kemitraan resmi dengan lembaga jasa keuangan berizin dan diawasi oleh OJK. Berbeda dengan pinjaman tunai tanpa agunan, fitur ini dirancang khusus untuk membagi pembayaran transaksi belanja online, tagihan bulanan, maupun transaksi QRIS menjadi beberapa kali angsuran berkala. Sistem memberikan akses fitur ini secara selektif berbasis penilaian algoritma risiko kredit otomatis (credit scoring).",
+          "bullets": [
+            "Layanan disediakan atas kerja sama resmi dengan mitra pembiayaan terdaftar OJK.",
+            "Fitur tidak diberikan otomatis ke semua pengguna baru, melainkan melalui undangan sistem berbasis kepatuhan akun.",
+            "Skema cicilan fleksibel dengan tenor 2 minggu hingga beberapa bulan tergantung profil risiko."
+          ]
+        },
+        {
+          "heading": "Syarat Wajib Sebelum Mengajukan Aktivasi",
+          "body": "Sebelum Anda mencoba menekan menu pengajuan atau mencari tombol aktivasi, pastikan akun dompet digital Anda telah memenuhi kriteria dasar berikut agar sistem penilaian kelayakan tidak menolak pengajuan Anda saat proses verifikasi identitas berlangsung.",
+          "bullets": [
+            "Akun telah berstatus Premium dengan verifikasi e-KTP dan pemindaian wajah biometrik yang valid.",
+            "Nomor handphone yang terdaftar telah aktif minimal selama 3 bulan dan terdaftar resmi di Disdukcapil.",
+            "Memiliki riwayat transaksi aktif seperti pembayaran tagihan utilitas (listrik/air), pulsa, dan QRIS merchant minimal 10 kali dalam sebulan terakhir.",
+            "Tidak memiliki catatan tunggakan kredit macet di database SLIK OJK (Sistem Layanan Informasi Keuangan)."
+          ]
+        },
+        {
+          "heading": "Alur Pengajuan Aktivasi Secara Mandiri",
+          "body": "Bagi pengguna yang telah menerima notifikasi kelayakan fitur cicilan, Anda dapat menyelesaikan pendaftaran dalam 3 menit melalui menu beranda aplikasi. Siapkan e-KTP asli dan pastikan pencahayaan ruangan memadai sebelum mengambil swafoto.",
+          "bullets": [
+            "Buka aplikasi dan pilih menu 'Saya' atau langsung ketuk ikon 'DANA Cicil' di menu beranda.",
+            "Baca lembar persetujuan syarat ketentuan serta pembagian data finansial dengan mitra kredit.",
+            "Lakukan konfirmasi data kependudukan dan ambil foto e-KTP secara presisi tanpa pantulan cahaya.",
+            "Lengkapi informasi pekerjaan, estimasi pendapatan bulanan, dan kontak darurat keluarga kandung.",
+            "Kirim pengajuan dan tunggu proses verifikasi analitik data berkisar 5 menit hingga 1x24 jam kerja."
+          ]
+        }
+      ],
+      "pro_tip": "Lakukan transaksi pembelian token listrik atau transfer berkala di awal bulan sebelum mengajukan aktivasi. Aktivitas transaksi yang terjadwal rapi menandakan stabilitas finansial di mata algoritma credit scoring."
+    },
+    {
+      "id": 2,
+      "category": "Solusi Paylater",
+      "title": "Solusi Kenapa Menu DANA Cicil Tidak Muncul di Aplikasi",
+      "subtitle": "Penyebab utama tombol cicilan hilang dan trik memancing algoritma agar memberikan akses fitur.",
+      "read_time": "4 Menit",
+      "is_popular": true,
+      "sections": [
+        {
+          "heading": "Memahami Konsep Fitur Berbasis Undangan (Whitelisting)",
+          "body": "Banyak pengguna mengeluhkan mengapa menu DANA Cicil atau Paylater tidak terlihat sama sekali di layar beranda mereka. Perlu dipahami bahwa sistem fintech modern menggunakan metode 'Whitelisting' dinamis. Menu cicilan hanya akan ditampilkan secara visual oleh server aplikasi jika skor analitik akun Anda melewati ambang batas keamanan minimum.",
+          "bullets": [
+            "Menu disembunyikan otomatis jika profil pengguna dinilai memiliki aktivitas transaksi rendah.",
+            "Sistem memperbarui daftar penerima kelayakan whitelisting setiap tanggal 1 dan tanggal 15 setiap bulannya.",
+            "Penggunaan aplikasi versi usang (outdated) dapat menyebabkan menu baru tidak ter-render dengan baik."
+          ]
+        },
+        {
+          "heading": "Langkah Teknis Mengatasi Menu yang Tersembunyi",
+          "body": "Lakukan pembersihan cache aplikasi dan pembaruan sistem secara menyeluruh untuk memastikan tidak ada konflik data lokal pada penyimpanan smartphone Anda.",
+          "bullets": [
+            "Perbarui aplikasi ke versi paling mutakhir melalui Google Play Store resmi.",
+            "Buka Pengaturan HP > Aplikasi > Pilih Aplikasi > Penyimpanan > Hapus Cache (Clear Cache).",
+            "Pastikan izin lokasi (GPS) dan izin kamera aktif pada pengaturan aplikasi agar verifikasi lokasi server sinkron.",
+            "Lakukan logout akun, restart perangkat smartphone Anda, kemudian login kembali menggunakan OTP resmi."
+          ]
+        },
+        {
+          "heading": "Metode Memancing Aktivasi dari Sisi Transaksi",
+          "body": "Algoritma membutuhkan data perilaku belanja yang konsisten. Hubungkan kartu debit bank utama Anda ke dalam dompet digital dan gunakan saldo digital untuk bertransaksi harian di minimarket atau merchant offline mitra.",
+          "bullets": [
+            "Gunakan fitur QRIS minimal 5 kali per minggu dengan nominal yang wajar dan bervariasi.",
+            "Simpan saldo mengendap minimal Rp 50.000 hingga Rp 100.000 selama beberapa hari sebagai indikator likuiditas.",
+            "Hindari melakukan pengisian saldo (top up) lalu langsung ditarik tunai secara mendadak."
+          ]
+        }
+      ],
+      "pro_tip": "Simpan riwayat pembayaran transaksi online e-commerce tanpa pernah membatalkan pesanan. Akun dengan frekuensi retur atau pembatalan rendah mendapatkan prioritas whitelisting lebih cepat."
+    },
+    {
+      "id": 3,
+      "category": "Aktivasi Cicilan",
+      "title": "Cara Cepat Aktivasi Paylater & Verifikasi Akun Premium Tanpa Gagal",
+      "subtitle": "Tips lolos verifikasi e-KTP dan biometrik wajah tanpa kendala penolakan dokumen otomatis.",
+      "read_time": "4 Menit",
+      "is_popular": false,
+      "sections": [
+        {
+          "heading": "Pentingnya Akun Premium Sebagai Gerbang Utama",
+          "body": "Setiap layanan pembiayaan paylater dan cicilan digital di Indonesia mewajibkan prinsip KYC (Know Your Customer) sesuai ketentuan regulator Bank Indonesia dan OJK. Anda tidak akan bisa mengakses fasilitas kredit jika akun Anda masih berstatus basic atau belum melewati verifikasi identitas resmi.",
+          "bullets": [
+            "Status Premium membuka limit transaksi bulanan yang lebih tinggi.",
+            "Memastikan identitas pemilik akun tunggal dan terlindungi dari penyalahgunaan pihak ketiga.",
+            "Menjadi basis pencocokan data nasabah pada biro kredit mitra pembiayaan resmi."
+          ]
+        },
+        {
+          "heading": "Panduan Foto KTP & Verifikasi Wajah Biometrik",
+          "body": "Penyebab terbesar kegagalan aktivasi adalah kualitas tangkapan foto KTP yang buram, tertutup jari tangan, atau terkena kilau lampu kilat (flash). Ikuti prosedur pemindaian visual berikut:",
+          "bullets": [
+            "Letakkan e-KTP fisik di atas permukaan datar dengan latar belakang gelap kontras tanpa pantulan.",
+            "Pastikan seluruh teks NIK, Nama Lengkap, dan Tanggal Lahir terbaca jelas oleh sensor OCR aplikasi.",
+            "Jangan menggunakan e-KTP hasil fotokopi, laminasi rusak, atau foto layar monitor perangkat lain.",
+            "Saat pemindaian wajah biometrik, pastikan wajah Anda berada di area terang alami tanpa kacamata atau masker."
+          ]
+        },
+        {
+          "heading": "Sinkronisasi Data Pribadi dengan Kontak Darurat",
+          "body": "Data yang diinput pada formulir pengajuan harus selaras 100% dengan database resmi kependudukan. Ketidaksesuaian penulisan alamat atau nomor kontak darurat yang tidak aktif akan memicu flag penolakan otomatis dari sistem anti-fraud.",
+          "bullets": [
+            "Masukkan nama ibu kandung sesuai dengan data Kartu Keluarga terbaru.",
+            "Cantumkan nomor kontak darurat keluarga inti yang nomornya selalu aktif dan bisa dihubungi.",
+            "Pastikan alamat domisili saat ini ditulis lengkap beserta kode pos yang valid."
+          ]
+        }
+      ],
+      "pro_tip": "Pastikan nama pemilik nomor rekening bank yang Anda hubungkan sama persis dengan nama di e-KTP Anda. Perbedaan ejaan huruf dapat membatalkan persetujuan verifikasi akun."
+    },
+    {
+      "id": 4,
+      "category": "Solusi Paylater",
+      "title": "Cara Mengatasi & Membuka Blokir Paylater yang Dibekukan Sementara",
+      "subtitle": "Panduan pemulihan akun paylater yang terkena pembatasan transaksi atau penangguhan limit.",
+      "read_time": "5 Menit",
+      "is_popular": true,
+      "sections": [
+        {
+          "heading": "Faktor Penyebab Akun Paylater Dibekukan",
+          "body": "Penangguhan atau pembekuan fitur cicilan biasanya terjadi karena pemicu sistem keamanan risiko. Sistem mendeteksi adanya aktivitas mencurigakan, perubahan perangkat keras secara mendadak, atau adanya keterlambatan pelunasan tagihan sebelumnya.",
+          "bullets": [
+            "Adanya riwayat pembayaran tagihan melewati batas jatuh tempo (grace period).",
+            "Aplikasi mendeteksi penggunaan VPN, perangkat root, atau aplikasi pengubah lokasi GPS palsu.",
+            "Percobaan login dari beberapa perangkat smartphone berbeda dalam rentang waktu singkat.",
+            "Transaksi yang dicurigai sebagai transaksi fiktif atau pencairan dana ilegal (gestun)."
+          ]
+        },
+        {
+          "heading": "Langkah Pemulihan Bertahap",
+          "body": "Jika akun Anda dibekukan karena masalah keterlambatan pembayaran, langkah pertama adalah melunasi seluruh kewajiban tertunggak beserta denda keterlambatan yang timbul.",
+          "bullets": [
+            "Selesaikan seluruh tagihan tertunda melalui saluran pembayaran resmi di dalam aplikasi.",
+            "Tunggu masa sinkronisasi data perbankan selama 1x24 jam kerja agar status pembayaran terverifikasi lunas.",
+            "Nonaktifkan seluruh aplikasi VPN, clone app, atau utilitas modifikasi sistem di smartphone Anda.",
+            "Gunakan koneksi internet seluler stabil dari nomor provider SIM card yang terpasang di perangkat utama."
+          ]
+        },
+        {
+          "heading": "Kapan Harus Mengajukan Banding ke Layanan Pelanggan?",
+          "body": "Apabila akun tetap dibekukan padahal tidak pernah menunggak tagihan dan tidak melanggar ketentuan, Anda berhak mengajukan peninjauan ulang status keamanan akun kepada tim customer care resmi.",
+          "bullets": [
+            "Kumpulkan bukti mutasi pembayaran terakhir dan tangkapan layar notifikasi pembekuan fitur.",
+            "Hubungi saluran CS resmi melalui menu 'Bantuan / Help Center' di dalam aplikasi.",
+            "Jelaskan kronologi kendala secara sopan dan minta dilakukan reset status keamanan akun."
+          ]
+        }
+      ],
+      "pro_tip": "Jangan pernah mencoba melakukan transaksi berulang kali secara agresif saat sistem menampilkan notifikasi penolakan transaksi, karena hal itu justru dapat meningkatkan skor risiko akun Anda menjadi permanen."
+    },
+    {
+      "id": 5,
+      "category": "Naikkan Limit",
+      "title": "Strategi Menaikkan Skor Kelayakan & Limit Cicilan Secara Cepat",
+      "subtitle": "Kiat meningkatkan plafon limit pembiayaan dan mempertahankan rekam jejak kredit yang prima.",
+      "read_time": "4 Menit",
+      "is_popular": true,
+      "sections": [
+        {
+          "heading": "Bagaimana Algoritma Menentukan Besaran Limit Awal?",
+          "body": "Limit awal yang diberikan oleh mitra pembiayaan berkisar antara Rp 500.000 hingga Rp 2.500.000 untuk pengguna baru. Besaran ini dihitung berdasarkan estimasi pendapatan bulanan, kelayakan SLIK OJK, dan rasio kemampuan membayar (debt-to-income ratio).",
+          "bullets": [
+            "Plafon awal sengaja diberikan konservatif untuk menguji komitmen pembayaran pengguna.",
+            "Evaluasi limit dilakukan secara berkala setiap 3 hingga 6 bulan pemakaian tertib.",
+            "Pengguna yang rutin memanfaatkan limit dan melunasi tepat waktu akan menerima kenaikan limit otomatis."
+          ]
+        },
+        {
+          "heading": "Kaidah Rasio Pemanfaatan Limit (Credit Utilization Rate)",
+          "body": "Kunci utama kenaikan limit bukanlah menghabiskan seluruh limit sekaligus, melainkan menjaga rasio penggunaan kredit pada angka yang sehat antara 30% hingga 70% dari total pagu kredit yang tersedia.",
+          "bullets": [
+            "Menggunakan 100% limit secara terus-menerus dapat diartikan sebagai tanda kesulitan likuiditas finansial.",
+            "Gunakan limit cicilan untuk transaksi kebutuhan terencana seperti belanja bulanan atau tagihan berkala.",
+            "Lakukan pelunasan lebih awal (early settlement) sebelum jatuh tempo jika Anda memiliki dana berlebih."
+          ]
+        },
+        {
+          "heading": "Pentingnya Pembayaran Tagihan Tepat Waktu",
+          "body": "Skor kredit akan meningkat drastis setiap kali Anda mencatatkan pembayaran cicilan yang mulus tanpa terlambat 1 hari pun. Rekam jejak positif ini tercatat otomatis di biro informasi kredit nasional.",
+          "bullets": [
+            "Aktifkan pengingat kalender 3 hari sebelum tanggal jatuh tempo tagihan.",
+            "Pastikan saldo dompet digital selalu mencukupi jika Anda mengaktifkan fitur autodebet tagihan.",
+            "Hindari ketergantungan pada beberapa aplikasi pinjaman sekaligus dalam periode yang bersamaan."
+          ]
+        }
+      ],
+      "pro_tip": "Jika ditawarkan kenaikan limit sementara menjelang momen promosi festival belanja, terima penawaran tersebut dan gunakan dengan bijak. Kepatuhan pembayaran limit promosi sering kali diubah menjadi kenaikan limit permanen."
+    },
+    {
+      "id": 6,
+      "category": "Aktivasi Cicilan",
+      "title": "Cara Menggunakan Fitur Cicilan untuk Bayar QRIS & Tagihan Bulanan",
+      "subtitle": "Teknik praktis memecah pembayaran transaksi harian merchant offline menjadi skema angsuran ringan.",
+      "read_time": "4 Menit",
+      "is_popular": false,
+      "sections": [
+        {
+          "heading": "Fleksibilitas Pembayaran Berbasis QRIS Dinamis",
+          "body": "Salah satu keunggulan terbesar fitur cicilan dompet digital modern adalah integrasinya dengan standar nasional QRIS (Quick Response Code Indonesian Standard). Anda dapat menggunakan limit cicilan di jutaan merchant bertanda QRIS di seluruh Indonesia.",
+          "bullets": [
+            "Berlaku di gerai ritel, restoran, supermarket, hingga apotek dan toko elektronik.",
+            "Transaksi langsung diproses seketika di kasir layaknya pembayaran saldo tunai.",
+            "Tagihan akan otomatis terbagi menjadi jadwal angsuran sesuai tenor yang Anda pilih saat konfirmasi."
+          ]
+        },
+        {
+          "heading": "Langkah Memilih Sumber Dana Cicilan di Kasir",
+          "body": "Saat Anda berada di kasir merchant, pastikan Anda memeriksa pilihan sumber dana sebelum memasukkan PIN keamanan transaksi.",
+          "bullets": [
+            "Buka aplikasi dan ketuk menu 'Pindai / Scan QRIS'.",
+            "Arahkan kamera ke kode QRIS statis atau dinamis yang disediakan oleh kasir.",
+            "Masukkan nominal transaksi belanja yang tertera pada struk kasir.",
+            "Pada halaman konfirmasi pembayaran, ubah sumber dana dari 'Saldo Utama' menjadi 'DANA Cicil / Paylater'.",
+            "Pilih skema tenor pembayaran yang diinginkan (misalnya 2 minggu atau 1 bulan).",
+            "Masukkan PIN rahasia Anda untuk menyelesaikan transaksi pembayaran."
+          ]
+        },
+        {
+          "heading": "Penggunaan untuk Pembayaran Tagihan Utilitas (Biller)",
+          "body": "Selain transaksi kasir fisik, limit cicilan juga sangat membantu dalam menjaga kelancaran pembayaran tagihan wajib bulanan rumah tangga tanpa mengganggu arus kas darurat.",
+          "bullets": [
+            "Pembayaran tagihan listrik PLN Pascabayar atau pembelian Token Prabayar.",
+            "Pembayaran tagihan air PDAM, internet broadband rumah tangga, dan BPJS Kesehatan.",
+            "Pastikan nominal transaksi memenuhi batas minimal pembiayaan yang ditentukan sistem (biasanya mulai Rp 50.000)."
+          ]
+        }
+      ],
+      "pro_tip": "Selalu periksa rincian biaya penanganan dan bunga sebelum menekan tombol bayar di kasir. Pilih tenor yang angsuran per bulannya tidak melebihi 15% dari total pemasukan rutin Anda."
+    },
+    {
+      "id": 7,
+      "category": "Simulasi Finansial",
+      "title": "Rincian Bunga, Biaya Admin, dan Cara Menghitung Tenor Angsuran",
+      "subtitle": "Bedah tuntas komponen biaya pinjaman agar Anda menjadi pengguna paylater yang cerdas dan hemat.",
+      "read_time": "5 Menit",
+      "is_popular": true,
+      "sections": [
+        {
+          "heading": "Komponen Biaya dalam Layanan Cicilan Digital",
+          "body": "Dalam setiap transaksi cicilan, terdapat beberapa pos biaya yang perlu Anda cermati secara teliti. Berdasarkan ketentuan regulasi OJK terbaru, seluruh penyelenggara pembiayaan wajib transparan mengenai suku bunga total dan biaya tambahan yang dibebankan kepada nasabah.",
+          "bullets": [
+            "Suku Bunga Bulanan: Biaya sewa dana yang dihitung berdasarkan persentase sisa pokok pinjaman.",
+            "Biaya Layanan / Admin Transaksi: Biaya pemrosesan transaksi satu kali yang dibebankan saat akad dimulai.",
+            "Biaya Keterlambatan (Denda Penalty): Denda harian yang otomatis berjalan jika tagihan melewati batas jatuh tempo."
+          ]
+        },
+        {
+          "heading": "Simulasi Perhitungan Nyata Angsuran",
+          "body": "Misalkan Anda melakukan transaksi belanja sebesar Rp 1.000.000 dengan tenor 3 bulan dan estimasi suku bunga rata-rata 2% per bulan serta biaya administrasi 1% di muka:",
+          "bullets": [
+            "Pokok Angsuran Per Bulan: Rp 1.000.000 / 3 = Rp 333.333.",
+            "Bunga Per Bulan: 2% x Rp 1.000.000 = Rp 20.000.",
+            "Total Cicilan Bulanan: Rp 333.333 + Rp 20.000 = Rp 353.333 per bulan.",
+            "Total Pengembalian 3 Bulan: 3 x Rp 353.333 = Rp 1.060.000 (ditambah biaya admin awal Rp 10.000)."
+          ]
+        },
+        {
+          "heading": "Tips Memilih Tenor yang Efisien",
+          "body": "Semakin panjang tenor yang Anda pilih, nominal angsuran per bulan memang terlihat lebih ringan di dompet, namun total akumulasi bunga yang Anda bayarkan akan menjadi lebih besar.",
+          "bullets": [
+            "Pilih tenor paling pendek (1 atau 2 bulan) untuk barang konsumtif sehari-hari.",
+            "Gunakan tenor lebih panjang (6 hingga 12 bulan) hanya untuk pembelian alat penunjang produktivitas kerja.",
+            "Selalu gunakan kalkulator simulasi sebelum memutuskan transaksi cicilan bernilai besar."
+          ]
+        }
+      ],
+      "pro_tip": "Manfaatkan fitur simulasi angsuran di Tab 3 aplikasi ini untuk menghitung skema pembayaran secara rinci dan presisi sebelum melakukan transaksi di aplikasi utama."
+    },
+    {
+      "id": 8,
+      "category": "Solusi Paylater",
+      "title": "Penyebab Pengajuan Aktivasi Ditolak & Cara Memperbaiki Riwayat SLIK/Kredit",
+      "subtitle": "Langkah konkret membersihkan catatan kredit macet dan memulihkan skor kelayakan di biro OJK.",
+      "read_time": "5 Menit",
+      "is_popular": false,
+      "sections": [
+        {
+          "heading": "Alasan Pengajuan Aktivasi Ditolak Sistem Otomatis",
+          "body": "Banyak pengguna terkejut saat pengajuan aktivasi mereka langsung ditolak hanya beberapa detik setelah dikirimkan. Penolakan instan ini hampir selalu dipicu oleh skor negatif pada database SLIK OJK (dulu dikenal sebagai BI Checking) atau biro kredit swasta mitra perbankan.",
+          "bullets": [
+            "Tercatat pernah menunggak tagihan di aplikasi pinjaman online lain atau kartu kredit perbankan.",
+            "Kolektibilitas kredit berstatus Kol 2 (Dalam Perhatian Khusus) hingga Kol 5 (Macet).",
+            "Data nomor KTP terindikasi masuk ke dalam daftar waspada fraud nasional.",
+            "Pencatatan nomor telepon yang terdeteksi berganti-ganti dalam riwayat kontak perbankan."
+          ]
+        },
+        {
+          "heading": "Cara Memeriksa Catatan SLIK OJK Anda",
+          "body": "Setiap warga negara berhak meminta lembar iDeb (Informasi Debitur) resmi secara mandiri dan gratis langsung melalui portal resmi OJK.",
+          "bullets": [
+            "Kunjungi situs resmi iDebku OJK di https://idebku.ojk.go.id melalui browser internet.",
+            "Pilih menu 'Pendaftaran' dan lengkapi jenis debitur perorangan beserta unggahan foto e-KTP.",
+            "OJK akan mengirimkan lembar hasil ringkasan riwayat kredit lengkap ke email Anda dalam 1-2 hari kerja.",
+            "Periksa daftar lembaga pembiayaan mana saja yang masih mencatatkan status baki debet atau tunggakan."
+          ]
+        },
+        {
+          "heading": "Prosedur Pembersihan Riwayat Kredit (Surat Lunas)",
+          "body": "Jika Anda menemukan catatan tunggakan lama yang belum selesai, segera selesaikan kewajiban tersebut untuk memulihkan nama baik finansial Anda.",
+          "bullets": [
+            "Hubungi pihak kreditur atau bank terkait dan lunasi seluruh sisa tagihan.",
+            "Minta Surat Keterangan Lunas (SKL) resmi bermaterai dari lembaga pembiayaan tersebut.",
+            "Lembaga pembiayaan wajib memperbarui laporan data Anda ke sistem OJK maksimal dalam 30 hari kalender.",
+            "Setelah catatan kredit bersih menjadi Kol 1 (Lancar), tunggu 1 hingga 2 bulan sebelum mengajukan kembali aktivasi fitur cicilan."
+          ]
+        }
+      ],
+      "pro_tip": "Jangan percaya pada oknum calo yang menjanjikan jasa pemutihan SLIK OJK instan dengan membayar biaya tertentu. Tidak ada pihak swasta manapun yang dapat menghapus data SLIK selain pelunasan resmi ke lembaga keuangan terkait."
+    },
+    {
+      "id": 9,
+      "category": "Keamanan",
+      "title": "Tips Keamanan Akun: Menghindari Penipuan Jasa Gestun & Link Phishing",
+      "subtitle": "Bentengi akun dompet digital dan limit paylater Anda dari ancaman modus rekayasa sosial terbaru.",
+      "read_time": "5 Menit",
+      "is_popular": true,
+      "sections": [
+        {
+          "heading": "Bahaya Nyata Modus Gesek Tunai (Gestun) Ilegal",
+          "body": "Maraknya penawaran pencairan limit cicilan paylater menjadi uang tunai (gestun) di media sosial seperti TikTok, Instagram, dan Telegram adalah jebakan berbahaya yang melanggar hukum dan ketentuan layanan fintech.",
+          "bullets": [
+            "Praktik gestun adalah transaksi manipulatif yang dilarang keras oleh Bank Indonesia dan OJK.",
+            "Mayoritas penyedia jasa gestun adalah sindikat penipuan yang membawa kabur dana setelah Anda mentransfer saldo.",
+            "Sistem anti-fraud aplikasi dapat mendeteksi pola transaksi gestun dan langsung membekukan akun Anda secara permanen.",
+            "Limit yang dicairkan tetap wajib Anda bayar ke pihak aplikasi beserta bunganya, meskipun uang tunai tidak Anda terima."
+          ]
+        },
+        {
+          "heading": "Waspada Modus Link Phishing & Call Center Palsu",
+          "body": "Penipu kerap mengirimkan pesan WhatsApp atau SMS dengan klaim memenangkan undian saldo atau penawaran aktivasi DANA Cicil kilat dengan melampirkan tautan situs web tiruan.",
+          "bullets": [
+            "Jangan pernah mengklik tautan tidak dikenal yang meniru tampilan login aplikasi.",
+            "Hati-hati terhadap akun media sosial customer care palsu yang tidak memiliki lencana centang biru resmi.",
+            "Pihak aplikasi tidak pernah meminta pengguna untuk mengetikkan kode OTP atau PIN pada formulir Google Form atau situs web pihak ketiga."
+          ]
+        },
+        {
+          "heading": "Aturan Emas Menjaga Keamanan Kredensial Akun",
+          "body": "Keamanan akun Anda sepenuhnya berada di tangan Anda. Terapkan protokol perlindungan digital ketat dalam rutinitas sehari-hari.",
+          "bullets": [
+            "PIN 6 Digit dan Kode OTP bersifat sangat rahasia; jangan pernah membagikannya kepada siapa pun termasuk pihak yang mengaku pegawai resmi.",
+            "Ganti PIN keamanan dompet digital Anda secara berkala minimal 3 bulan sekali.",
+            "Aktifkan fitur otentikasi biometrik sidik jari / Face Unlock untuk verifikasi setiap transaksi pembayaran.",
+            "Segera bekukan akun melalui customer care jika smartphone Anda hilang atau berpindah tangan."
+          ]
+        }
+      ],
+      "pro_tip": "Jika menerima telepon dari nomor asing yang mengaku petugas customer service menginformasikan adanya kendala tagihan dan meminta kode verifikasi, segera tutup telepon tersebut. Petugas resmi tidak pernah membutuhkan kode rahasia Anda."
+    },
+    {
+      "id": 10,
+      "category": "Keamanan",
+      "title": "Prosedur Menghubungi CS Resmi untuk Kendala Tagihan & Pemulihan Akun",
+      "subtitle": "Daftar kontak layanan pengaduan konsumen resmi yang aman dari penipuan pihak ketiga.",
+      "read_time": "4 Menit",
+      "is_popular": false,
+      "sections": [
+        {
+          "heading": "Saluran Pengaduan Konsumen yang Terverifikasi",
+          "body": "Ketika Anda menghadapi masalah serius seperti transaksi gantung, tagihan tidak sinkron padahal sudah dibayar, atau pemulihan akun akibat nomor hilang, selalu gunakan kanal komunikasi resmi berlisensi berikut.",
+          "bullets": [
+            "Customer Care Hotline 24 Jam: 1500 445 (dapat dihubungi melalui jaringan telepon kabel atau seluler).",
+            "Bantuan Resmi di Aplikasi: Buka menu 'Saya' > pilih 'Pusat Bantuan / DIANA'.",
+            "Email Dukungan Resmi: help@dana.id (pastikan domain email berakhiran @dana.id bukan domain gratisan).",
+            "WhatsApp Layanan Resmi: Nomor resmi bercentang hijau verified WhatsApp for Business (0819-1500-445)."
+          ]
+        },
+        {
+          "heading": "Format Dokumen yang Harus Disiapkan Saat Mengadu",
+          "body": "Agar laporan Anda dapat ditindaklanjuti secara cepat oleh tim operasional, siapkan dokumen pendukung sebelum menghubungi saluran bantuan.",
+          "bullets": [
+            "Nomor handphone yang terdaftar pada akun dompet digital yang bermasalah.",
+            "Nomor ID Transaksi (Order ID) yang tertera pada detail riwayat transaksi yang berkendala.",
+            "Tangkapan layar (screenshot) mutasi saldo atau struk pembayaran perbankan yang sah.",
+            "Foto e-KTP asli pemegang akun untuk verifikasi kepemilikan data saat proses pemulihan akses."
+          ]
+        },
+        {
+          "heading": "Eskalasi ke Lembaga Pengawas (OJK & BI)",
+          "body": "Jika pengaduan Anda ke pihak penyedia layanan dompet digital tidak mendapatkan respon memuaskan dalam batas waktu 20 hari kerja sesuai ketentuan UU Perlindungan Konsumen, Anda berhak melayangkan laporan ke otoritas pengawas keuangan.",
+          "bullets": [
+            "Kontak OJK 157: Telepon 157 atau melalui portal Kontak OJK di https://kontak157.ojk.go.id.",
+            "Layanan Pengaduan Konsumen Bank Indonesia (BICARA): Telepon 131 atau email bicara@bi.go.id."
+          ]
+        }
+      ],
+      "pro_tip": "Catat selalu Nomor Tiket Laporan yang diberikan oleh agen customer service saat pertama kali menghubungi bantuan. Nomor tiket ini sangat berguna untuk memantau perkembangan penanganan kasus Anda."
+    }
+  ]
+}
