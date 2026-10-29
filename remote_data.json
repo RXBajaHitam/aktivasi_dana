@@ -1,6 +1,6 @@
 {
   "ad_config": {
-    "ads_enabled": false,
+    "ads_enabled": true,
     "app_open_enabled": true,
     "banner_enabled": true,
     "interstitial_enabled": true,
@@ -10,7 +10,7 @@
     "interstitial_id": "ca-app-pub-4143989343749459/5147533781",
     "native_id": "ca-app-pub-4143989343749459/7346426914",
     "interstitial_click_interval": 2,
-    "interstitial_cooldown_seconds": 40,
+    "interstitial_cooldown_seconds": 30,
     "native_list_interval": 3
   },
   "guides": [
